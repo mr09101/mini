@@ -12,7 +12,7 @@ import javax.swing.JScrollPane;
 import java.awt.Font;
 import javax.swing.table.DefaultTableModel;
 
-public class Smanager {
+public class MemberMnagerTest {
 
 	private JFrame frame;
 	private JTextField textField;
@@ -25,7 +25,7 @@ public class Smanager {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Smanager window = new Smanager();
+					MemberMnagerTest window = new MemberMnagerTest();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -37,7 +37,7 @@ public class Smanager {
 	/**
 	 * Create the application.
 	 */
-	public Smanager() {
+	public MemberMnagerTest() {
 		initialize();
 	}
 
